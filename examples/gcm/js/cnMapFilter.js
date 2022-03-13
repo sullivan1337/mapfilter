@@ -564,7 +564,7 @@
 	    //		'key':'AIzaSyCTAulP3zlORSepvGEtj2796qbGzn-_2WA' // Google API Key for chadnorwood.com 2014
 		};
 		if (cnMF.tz.name != 'unknown') {
-			gCalObj.ctz = cnMF.tz.name; // ex: 'America/Chicago'
+			gCalObj.ctz = cnMF.tz.name; // ex: 'America/New_York'
 			debug.debug(" Displaying calendar times using this timezone: "+ gCalObj.ctz);
 		}
 		$.ajax({
@@ -593,7 +593,7 @@
 		debug.debug(" parseGCalData() calendar data: ",cdata);
 
 		calendarInfo.calendarId = calendarId;
-		calendarInfo.gcTitle = cdata.summary || 'title unknown';
+		calendarInfo.gcTitle = cdata.name || 'title unknown';
 		calendarInfo.gcTitle.replace(/"/,'&quot;');
 		calendarInfo.desc = cdata.description || '';
 		calendarInfo.gcLink = 'https://www.google.com/calendar/embed?src='+ calendarId;
