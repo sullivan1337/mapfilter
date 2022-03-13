@@ -559,9 +559,9 @@
 			'max-results': 250, // default, can go up to 2500
 			//'orderBy'  : 'startTime',
 			'singleevents': true,
-			'key':'AIzaSyD3pfT1PsOmnmGMLOqfcPuLUErZ0ZIfF-Q' // Google API Key 2018-7-16 no restrictions
-			//'key':'AIzaSyBYxFbC7UOW7RreLsERo1gOgKVcup4jPqk' // Google API Key for chadnorwood.com, created 2015-1-6
-	    //		'key':'AIzaSyCdpWK6w91IDKmaGtbhPkPtWrZfroi07WQ' // Google API Key for chadnorwood.com 2014
+			'key':'AIzaSyCTAulP3zlORSepvGEtj2796qbGzn-_2WA' // Google API Key 2018-7-16 no restrictions
+			//'key':'AIzaSyCTAulP3zlORSepvGEtj2796qbGzn-_2WA' // Google API Key for chadnorwood.com, created 2015-1-6
+	    //		'key':'AIzaSyCTAulP3zlORSepvGEtj2796qbGzn-_2WA' // Google API Key for chadnorwood.com 2014
 		};
 		if (cnMF.tz.name != 'unknown') {
 			gCalObj.ctz = cnMF.tz.name; // ex: 'America/Chicago'
